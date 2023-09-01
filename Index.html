@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Picks/Favicon%20Real.png" type="image/x-icon">
+    <title>Portfolio</title>
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+      nav {
+        width: 100%;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 20px;
+        background-color: rgba(15, 15, 15, 0.411);
+        position: fixed;
+      }
+      nav img {
+        display: inline-block;
+        float: left;
+        padding-top: 10px;
+        cursor: pointer;
+      }
+      nav ul {
+        float: right;
+        padding-right: 20px;
+        list-style: none;
+      }
+      nav li {
+        font-size: 25px;
+        display: inline-block;
+        padding-right: 40px;
+      }
+      nav li a {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+        background-color: rgb(15, 15, 15 0.411);
+        padding: 5px 15px;
+        border-radius: 20px;
+      }
+      nav li a:hover {
+        color: #ffffff;
+        box-shadow: 0px 0px 25px #ec4d37, inset 0px 0px 25px #ec4d37;
+      }
+
+      table .pahla_td {
+        padding-left: 80px;
+        padding-top: 60px;
+        letter-spacing: 1.5px;
+        color: whitesmoke;
+      }
+      table .pahla_td h4 {
+        font-size: 25px;
+        font-family: Arial Black;
+        cursor: default;
+      }
+      table .pahla_td h2 {
+        font-size: 40px;
+        cursor: default;
+      }
+      table .pahla_td h1 {
+        font-size: 50px;
+        font-family: Arial Black;
+        color: #ec4d37;
+        cursor: pointer;
+        transition: 0.8s;
+      }
+      table .pahla_td h1:hover {
+        color: #ec4c3765;
+      }
+      table .pahla_td h3 {
+        font-size: 22px;
+        padding-left: 15px;
+        line-height: 25px;
+        word-spacing: 5px;
+        cursor: default;
+      }
+      table tr input[type="button"] {
+        margin-top: 30px;
+        margin-left: 60px;
+        padding: 10px 30px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        background-color: black;
+        border: 2px solid #ec4d37;
+        color: whitesmoke;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.7s;
+      }
+      table tr input[type="button"]:hover {
+        color: black;
+        background-color: #ec4d37;
+      }
+      table tr span input[type="button"] {
+        background-color: #ec4d37;
+        color: rgb(0, 0, 0);
+      }
+      table tr span input[type="button"]:hover {
+        color: white;
+        background-color: rgb(0, 0, 0);
+      }
+      table .dusra_td {
+        padding-top: 150px;
+        padding-right: 40px;
+        border-radius: 150% 150%;
+        transition: 1s;
+      }
+      table .dusra_td:hover {
+        opacity: 0.316;
+      }
+
+      .table3 {
+        transition: 0.5s;
+      }
+      .table3:hover {
+        border: #ec4d37;
+        box-shadow: 0px 0px 2px #ec4d37, inset 0px 0px 10px #ec4d37;
+      }
+
+      .section1 tr .taycera_td img {
+        margin-left: 50px;
+      }
+      .section1 tr .chota_td a {
+        text-decoration: none;
+        color: #ff553f;
+        font-size: 40px;
+        transition: 0.7s;
+      }
+      .section1 tr .chota_td a:hover {
+        color: #ff553f52;
+      }
+
+      .section1 tr .chota_td h2 {
+        margin-right: 150px;
+        margin-bottom: 180px;
+        color: rgb(199, 199, 199);
+        font-size: 20px;
+        font-family: Arial (Body CS);
+        word-spacing: 5px;
+        line-height: 30px;
+        transition: 0.7s;
+      }
+
+      .section1 tr .chota_td h2:hover {
+        color: rgb(85, 85, 85);
+      }
+
+      .section1 tr .chota_td h1 a {
+        line-height: 120px;
+      }
+
+      h1 a {
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+        margin-top: 150px;
+        margin-left: 30%;
+        word-spacing: 10px;
+      }
+      h2 a {
+        text-decoration: none;
+        color: white;
+        font-size: 50px;
+        margin-left: 530px;
+        word-spacing: 10px;
+        line-height: 80px;
+      }
+
+      h3 {
+        color: whitesmoke;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+        word-spacing: 5px;
+        cursor: default;
+      }
+      .table3 {
+        margin-top: 50px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: default;
+      }
+      .table3 .five_td {
+        padding: 20px 0px;
+        border-bottom: 2px solid rgb(92, 92, 92);
+        border-radius: 20px;
+      }
+      .table3 .six_td {
+        font-size: 25px;
+        padding: 20px 0px;
+        cursor: pointer;
+        word-spacing: 7px;
+      }
+      .table3 .seven_td {
+        padding: 0px 5px;
+        color: rgb(161, 161, 161);
+      }
+      .table3:hover .seven_td {
+        color: #ff5f4a;
+      }
+      .table3 .eight_td {
+        padding-right: 80px;
+        padding-bottom: 20px;
+      }
+      .table3 .eight_td input[type="button"] {
+        color: white;
+        background-color: #ec4d37;
+        border-radius: 20px;
+      }
+      .table3 .eight_td input[type="button"]:hover {
+        border-color: #ec4d37;
+        background-color: black;
+        color: whitesmoke;
+      }
+      .nine_td {
+        font-size: 25px;
+        padding: 20px;
+      }
+      .section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .section3 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .form {
+        width: 700px;
+        height: 570px;
+        border: 2px solid #ec4d37;
+        margin: 100px 0px;
+        transition: 0.7s;
+      }
+      .form:hover {
+        box-shadow: 0px 0px 45px #ec4d37;
+        cursor: default;
+      }
+      .form h1 {
+        color: #ffffff;
+        font-size: 60px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 40px 0px;
+        font-family: Arial;
+        transition: 0.7s;
+      }
+      .form:hover h1 {
+        color: #ec4d37;
+      }
+      .form p {
+        color: #ffffff;
+        font-size: 40px;
+        transition: 0.7s;
+      }
+      .form:hover p {
+        color: #ec4d37;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="number"]
+     {
+        font-size: 25px;
+        margin: 15px 0px;
+        padding: 10px 10px;
+        width: 70%;
+        border: 2px solid rgb(27, 27, 27);
+        border-radius: 10px;
+        transition: 0.7s;
+      }
+
+      button {
+        margin-top: 13px;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        border: none;
+        transition: 0.7s;
+      }
+      .form:hover button {
+        background-color: #ec4d37;
+      }
+      button a {
+        color: black;
+        text-decoration: none;
+        transition: 0.7s;
+      }
+      button a:hover {
+        color: #ffffff;
+      }
+
+      footer {
+        padding: 30px;
+        line-height: 50px;
+        text-align: center;
+        background-image: linear-gradient(rgb(34, 34, 34), black);
+      }
+
+      footer h6 {
+        font-size: 25px;
+        cursor: pointer;
+        color: rgb(184, 0, 184);
+        letter-spacing: 1.5px;
+        word-spacing: 4px;
+        cursor: pointer;
+      }
+      footer h1 {
+        color: #ffffff;
+        line-height: 40px;
+        font-size: 30px;
+        word-spacing: 10px;
+        cursor: default;
+      }
+      footer div h1 span {
+        color: #ec4d37;
+        cursor: default;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(17, 17, 17)">
+    <nav>
+      <img src="./Index_files/Name.png" alt="" width="150px">
+      <ul>
+        <li><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html">Home</a></li>
+        <li><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html#ABOUT">About</a></li>
+        <li><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html#SERVICES">Services</a></li>
+        <li><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html#CONTACT">Contact</a></li>
+      </ul>
+    </nav>
+
+    <table style="width: 100%">
+      <tbody><tr>
+        <td class="pahla_td">
+          <h4>Hello...</h4>
+          <h2>My name is</h2>
+          <h1>MOHSIN SALEEM</h1>
+          <h3>
+            Web-designing , Frontend-developer
+            <span style="color: #ec4d37">(HTML,CSS)</span> Facilities <br>
+            are available.
+          </h3>
+          <input type="button" value="My Work">
+          <span><input type="button" value="Hire me"></span>
+        </td>
+        <td class="dusra_td">
+          <div>
+            <img src="./Index_files/About 2.png" alt="" style="width: 400px">
+          </div>
+        </td>
+      </tr>
+    </tbody></table>
+
+    <section class="section1" style="background-color: rgb(24, 24, 24)">
+      <a name="ABOUT"></a>
+      <br><table style="width: 100%; padding-top: 140px">
+        <tbody><tr>
+          <td class="taycera_td">
+            <img src="./Index_files/About 0.png" alt="" style="width: 400px">
+          </td>
+          <td class="chota_td">
+            <h1 class="Aboutme"><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html">About Me</a></h1>
+            <h2 style="text-align: center">
+              My name is Mohsin Saleem.I am 16 years old.My religion is Islam.I
+              passed my matricculation from Govt. Hign School Sahiwal. Now I am
+              goining to study Inter mediate of Coputer Science From Govt
+              Graduate College Sahiwal.I work on Web-Designing and Website
+              Development as Frontend-Developer.
+              <hr color="#ec4d37" style="
+                  width: 20%;
+                  margin-top: 30px;
+                  height: 5px;
+                  margin-left: 38%;
+                ">
+            </h2>
+          </td>
+        </tr>
+        
+      </tbody></table>
+      <br>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <a name="SERVICES"></a>
+    <h2><a href="file:///C:/Users/Designsbyahsan/Desktop/Genius/Portfolio/index.html" align="center">My Services</a></h2>
+    <h3 align="center">I shall give my Best</h3>
+
+    <section class="section2">
+      <table class="table3" style="color: white; width: 25%; background-color: rgb(34, 32, 32)">
+        <tbody><tr>
+          <td class="five_td">
+            <img src="./Index_files/HTML.png" alt="" width="50px">
+          </td>
+        </tr>
+        <tr>
+          <td class="six_td">HTML Services</td>
+        </tr>
+        <tr>
+          <td class="seven_td">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, perspiciatis Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore, voluptas! Nulla numquam distinctio
+            suscipit maxime saepe dignissimos vero fuga deleniti.
+          </td>
+        </tr>
+        <tr>
+          <td class="eight_td">
+            <input type="button" value="Read more">
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table class="table3" style="color: white; width: 25%; background-color: rgb(34, 32, 32)">
+        <tbody><tr>
+          <td class="five_td">
+            <img src="./Index_files/CSS.png" alt="" width="100px">
+          </td>
+        </tr>
+        <tr>
+          <td class="nine_td">CSS Services</td>
+        </tr>
+        <tr>
+          <td class="seven_td">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, perspiciatis Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore, voluptas! Nulla numquam distinctio
+            suscipit maxime saepe dignissimos vero fuga deleniti.
+          </td>
+        </tr>
+        <tr>
+          <td class="eight_td">
+            <input type="button" value="Read more">
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table class="table3" style="color: white; width: 25%; background-color: rgb(34, 32, 32)">
+        <tbody><tr>
+          <td class="five_td">
+            <img src="./Index_files/Logo-designer.png" alt="" width="70px">
+          </td>
+        </tr>
+        <tr>
+          <td class="nine_td">Logo Designer</td>
+        </tr>
+        <tr>
+          <td class="seven_td">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus, perspiciatis Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolore, voluptas! Nulla numquam distinctio
+            suscipit maxime saepe dignissimos vero fuga deleniti.
+          </td>
+        </tr>
+        <tr>
+          <td class="eight_td">
+            <input type="button" value="Read more">
+          </td>
+        </tr>
+      </tbody></table>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="section3" style="background-color: rgb(24, 24, 24)">
+      <div class="form">
+        <a name="CONTACT"></a>
+        <h1>Contact</h1>
+        <div class="input">
+          <p>
+            Name:
+            <input type="text" name="" id="" placeholder="Name" required="">
+          </p>
+          <p>
+            Email:
+            <input type="email" name="" id="" placeholder="Email" required="">
+          </p>
+          <p>
+            Subject:
+            <input type="text" name="" id="" placeholder="Subject" required="">
+          </p>
+          <p>
+            Message:
+            <input type="text" name="" id="" placeholder="Message" required="">
+          </p>
+        </div>
+        <button><a href="mailto:genius1245780@gmail.com"> Hire me </a></button>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <h6>Privacy policy</h6>
+        <h1>Copyright © 2023 <span>Mohsin Saleem</span> All right reseved</h1>
+      </div>
+    </footer>
+  
+
+</body></html>
